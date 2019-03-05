@@ -27,6 +27,8 @@ public class MainDemoApp {
 		
 		//CALL METHODS
 		Account myAccount = new Account();
+		myAccount.setName("Carlos");
+		myAccount.setLevel("Gold");
 		theAccountDAO.addAccount(myAccount, true);
 		theAccountDAO.doWork();
 		theMemberDAO.addOtherAccount();
